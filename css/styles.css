@@ -231,15 +231,13 @@ footer {
   text-decoration: none;
 }
 .address {
-  text-decoration: none;
   color: #ffffff;
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  font-size: 14px;
-  margin-left: 215px;
-  margin-top: 24px;
 }
+
 /*portfolio-buttons*/
 .main {
   font-weight: 500;
@@ -249,6 +247,7 @@ footer {
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #2196f3;
+  margin-top: 180px;
 }
 .button {
   font-style: normal;
@@ -259,4 +258,20 @@ footer {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
+}
+.subpages {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.contact-panels {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
 }
