@@ -9,17 +9,21 @@
       rel="stylesheet"
     />
     <title>Zadanie domowe studentów #1</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="index.html" class="logo">Web<span>Studio</span></a>
+      <a href="index.html" class="logo"
+        >Web<span class="half-logo">Studio</span></a
+      >
       <nav>
         <ul>
           <li>
-            <a href="index.html">Agencja</a>
+            <a href="index.html" class="click-links">Agencja</a>
           </li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li>
+            <a href="portfolio.html" class="click-portfolio">Portfolio</a>
+          </li>
           <li><a href="index.html">Kontakt</a></li>
         </ul>
       </nav>
@@ -32,8 +36,11 @@
     </header>
     <main>
       <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <h1 class="type">
+          <p>EFEKTYWNE ROZWIĄZANIA</p>
+          <p>DLA WASZEGO BIZNESU</p>
+          <button type="button" class="order">Zamów usługę</button>
+        </h1>
       </section>
       <section>
         <h2></h2>
@@ -73,6 +80,7 @@
         <ul>
           <li>
             <img
+              class="photo"
               src="./images/PICTURE1.jpg"
               alt="Pisanie na komputerze"
               width="370"
@@ -81,6 +89,7 @@
           </li>
           <li>
             <img
+              class="photo"
               src="./images/PICTURE2.jpg"
               alt="Praca przy komputerze"
               width="370"
@@ -89,6 +98,7 @@
           </li>
           <li>
             <img
+              class="photo"
               src="./images/PICTURE3.jpg"
               alt="Praca przy komputerze"
               width="370"
@@ -97,11 +107,12 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
+      <section class="team">
+        <h2 class="title-2">Nasz zespół</h2>
         <ul>
           <li>
             <img
+              class="photo"
               src="./images/Person1.jpg"
               alt="Mężczyzna"
               height="260"
@@ -112,6 +123,7 @@
           </li>
           <li>
             <img
+              class="photo"
               src="./images/Person2.jpg"
               alt="Kobieta"
               height="260"
@@ -122,6 +134,7 @@
           </li>
           <li>
             <img
+              class="photo"
               src="./images/Person3.jpg"
               alt="Mężczyzna"
               height="260"
@@ -132,6 +145,7 @@
           </li>
           <li>
             <img
+              class="photo"
               src="./images/Person4.jpg"
               alt="Mężczyzna"
               height="260"
@@ -144,16 +158,27 @@
       </section>
     </main>
     <footer>
-      <a href="index.html">WebStudio</a>
+      <a href="index.html" class="logo"
+        >Web<span class="part-logo">Studio</span></a
+      >
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/aS6nvoZYcpZqH1376" target="blank"
-              >WebStudio</a
+            <a
+              href="https://goo.gl/maps/aS6nvoZYcpZqH1376"
+              target="blank"
+              class="address"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="address"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+48111111111" class="address">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>

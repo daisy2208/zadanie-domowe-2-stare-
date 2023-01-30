@@ -22,6 +22,12 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+body:hover {
+  text-decoration: underline #2196f3;
+}
+.photo:hover {
+  text-decoration: line-through #2196f3;
+}
 
 .visually-hidden {
   position: absolute;
@@ -38,7 +44,35 @@ body {
 }
 
 /*Web Studio */
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+  margin-top: 24px;
+  margin-left: 215px;
+}
+.half-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 24px;
+}
 
+.part-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-top: 24px;
+  color: #ffffff;
+}
 .logo-set {
   position: absolute;
   width: 145px;
@@ -51,12 +85,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
+
 .navigation {
   text-decoration: none;
   background-color: #ffffff;
@@ -67,6 +99,68 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  list-style-type: none;
+}
+.click-links {
+  color: #2196f3;
+  margin-top: 32px;
+  margin-left: 453px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+.web-navigation {
+  text-decoration: none;
+}
+.click-portfolio {
+  text-decoration: none;
+  margin-top: 32px;
+  margin: left 453px;
+  color: #212121;
+  font-weight: 500;
+}
+.type {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-weight: 900;
+  font-size: 44px;
+}
+/*Our team*/
+.title-2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 94px;
+}
+.team {
+  background-color: #f5f4fa;
+}
+h1:hover {
+  text-decoration: underline #2196f3;
+}
+header:hover {
+  text-decoration: underline #2196f3;
+}
+.order {
+  background-color: #2196f3;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+.order:hover {
+  text-decoration: underline #2196f3;
 }
 .links {
   font-family: "Roboto";
@@ -77,16 +171,22 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.footer {
+footer {
   background-color: #2f303a;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
   color: #ffffff;
+  text-decoration: none;
+}
+.address {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-size: 14px;
+  margin-left: 215px;
+  margin-top: 24px;
 }
