@@ -108,7 +108,23 @@ body:hover {
   text-decoration: none;
   font-weight: 500;
 }
-
+/* contacts elements*/
+.contact {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+}
+.click-contact {
+  text-decoration: none;
+  color: #212121;
+  margin-left: 656px;
+  margin: right 893px;
+}
+.click-phone {
+  text-decoration: none;
+  color: #757575;
+  margin-right: 227px;
+}
 ul {
   list-style-type: none;
 }
@@ -131,6 +147,34 @@ ul {
   font-weight: 900;
   font-size: 44px;
 }
+/*text paragraph*/
+.text {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*Our mission*/
+.title-1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+/*Photoes location*/
+.center {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photo {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 /*Our team*/
 .title-2 {
   text-align: center;
@@ -150,6 +194,12 @@ h1:hover {
 }
 header:hover {
   text-decoration: underline #2196f3;
+}
+.photo {
+  border: none;
+}
+photo:hover {
+  border: 3px #2196f3;
 }
 .order {
   background-color: #2196f3;
@@ -189,4 +239,24 @@ footer {
   font-size: 14px;
   margin-left: 215px;
   margin-top: 24px;
+}
+/*portfolio-buttons*/
+.main {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
 }
