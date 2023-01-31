@@ -136,7 +136,7 @@ align-items: center;}
   color: var(--background-color);
 }
 /* button-order*/
-.order {
+order {
   background-color: var(--acent-color);
   color: var(--background-color);
   text-align: center;
