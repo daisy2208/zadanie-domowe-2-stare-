@@ -59,29 +59,34 @@ body {
 }
 
 /*Agencja*/
+
 .click-links {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
+  color: var(--acent-color);
 }
 .click-links:hover {
   cursor: pointer;
   color: var(--acent-color);
 }
+.active {
+  color: var(--acent-color);
+}
 /*Portfolio*/
-.click-portfolio {
+.portfolio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-.click-portfolio:hover {
+.portfolio:hover {
   cursor:pointer;
   color: var(--acent-color);
 }
+
 /*Kontakt*/
 .click-contact {
   font-weight: 500;
@@ -89,7 +94,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-}
+  }
 .click-contact:hover{
   cursor:pointer;
   color:var(--acent-color);
@@ -101,6 +106,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 .contact:hover {
   color: #2196f3;
@@ -119,11 +125,21 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.click-phone:hover{
+  text-decoration: underline;
+}
+.click-phone:focus{
+  text-decoration: underline;
+}
 .list{
 display:flex;
 margin-right: 1px;
 align-items: center;}
 /*header*/
+section{
+  background-color: #2F303A;
+  color: var(--contener-color)
+}
 .type {
   font-family: var(--main-font);
   font-style: normal;
@@ -136,7 +152,7 @@ align-items: center;}
   color: var(--background-color);
 }
 /* button-order*/
-order {
+.order {
   background-color: var(--acent-color);
   color: var(--background-color);
   text-align: center;
@@ -153,7 +169,7 @@ border-radius: 4px;
   cursor:pointer;
 }
 /* h2-text*/
-h3 {
+.content {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
@@ -181,6 +197,22 @@ h3 {
   display: inline-block;
 }
 /*team*/
+.name{
+  font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.profession{
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
 .title-2 {
   font-family: var(--main-font);
   font-style: normal;
@@ -242,20 +274,49 @@ color: #ffffff;
 /*PORTFOLIO*/
 
 .click-links {
-  color: #2196f3;
+  color: var(--main-text-color);
   text-decoration: none;
   font-weight: 500;
+  cursor:pointer;
 }
 /* contacts elements*/
 .click-contact {
   text-decoration: none;
   color: #212121;
+  cursor:pointer;
+}
+.portfolio{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+cursor:pointer;
+color: var(--main-text-color);
+text-decoration: none;
+}
+.portfolio:hover{
+  color: var(--acent-color);
+}
+.contact-panels{
+  text-decoration: none;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.contact-panels:hover{
+  color: var(--acent-color);
 }
 .click-phone {
   text-decoration: none;
   color: #757575;
 }
 /*portfolio-buttons*/
+.buttons-nav{
+  background-color: var(--background-color);
+}
 .button{
   font-family:var(--main-font);
 font-style: normal;
@@ -304,17 +365,8 @@ ul {
 }
 .click-portfolio {
   text-decoration: none;
-  color: #212121;
+  color: var(--acent-color);
   font-weight: 500;
-}
-.type {
-  background-color: #2f303a;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  font-weight: 900;
-  font-size: 44px;
 }
 /*text paragraph*/
 .text {
@@ -356,4 +408,23 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+  cursor:pointer;
+}
+.address:hover{
+  color: var(--acent-color);
+}
+.address:focus{
+  color: var(--acent-color);
+}
+.address-contact{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+cursor:pointer;
+}
+.address-contact:hover{
+  color: var(--acent-color)
 }
